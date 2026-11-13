@@ -160,4 +160,4 @@ C:\Users\84289112587\source\repos\PizzariaAPI\PizzariaAPI\obj\Debug\net10.0\refi
 C:\Users\84289112587\source\repos\PizzariaAPI\PizzariaAPI\obj\Debug\net10.0\PizzariaAPI.pdb
 C:\Users\84289112587\source\repos\PizzariaAPI\PizzariaAPI\obj\Debug\net10.0\PizzariaAPI.genruntimeconfig.cache
 C:\Users\84289112587\source\repos\PizzariaAPI\PizzariaAPI\obj\Debug\net10.0\ref\PizzariaAPI.dll
-C:\Users\84289112587\source\repos\PizzariaAPI\PizzariaAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\84289112587\source\repos\PizzariaAPI\PizzariaAPI\obj\Debug\net10.0\PizzariaAPI.sourcelink.json

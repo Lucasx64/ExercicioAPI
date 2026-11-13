@@ -3,13 +3,15 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 builder.Services.AddControllers();
 
 builder.Services.AddDbContext<PizzariaContext>(options =>
 
         options.UseSqlServer(builder.Configuration.GetConnectionString("Pizzaria"))
 );
+
+builder.Services.AddScoped<PizzariaContext>();
+
 
 var app = builder.Build();
 

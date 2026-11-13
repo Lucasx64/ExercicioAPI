@@ -42,7 +42,7 @@ public partial class PizzariaContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("bairro");
             entity.Property(e => e.Nome)
-                .HasMaxLength(100)
+                .HasMaxLength(200)
                 .IsUnicode(false)
                 .HasColumnName("nome");
             entity.Property(e => e.Numero)
@@ -53,6 +53,10 @@ public partial class PizzariaContext : DbContext
                 .HasMaxLength(100)
                 .IsUnicode(false)
                 .HasColumnName("rua");
+            entity.Property(e => e.Telefone)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("TELEFONE");
         });
 
         modelBuilder.Entity<Entregador>(entity =>
